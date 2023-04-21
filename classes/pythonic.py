@@ -37,3 +37,11 @@ class Ring(object):
 
     def area(self):
         return math.pi * self.radius**2
+    
+def main():
+    print("Center of the Ring is at:", Ring.center) # modify class variable
+    r = Ring(price=8) # modify only price
+    print("Radius:{0}, Cost:{1}".format(r.radius, r.cost()))
+
+if __name__ == '__main__':
+    main()
