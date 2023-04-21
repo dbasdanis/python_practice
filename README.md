@@ -1,3 +1,3 @@
 # Python Practice
 
-This repository is for introduction to Python and testing different functionalities of the language.
+This repository serves as an introduction to Python, and aims to explore and test various functionalities of the language.
