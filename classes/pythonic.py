@@ -1,4 +1,5 @@
 import math
+import time
 
 class Ring(object):
     """ Here we will see the actual logic behind various pieces of Python
@@ -7,7 +8,12 @@ class Ring(object):
     design with Agile methodology.
     """
 
-    def __init__(self, date, metal, radius, price, quantity):
+    # class variables
+    date = time.strftime("%Y-%m-%d", time.gmtime()) # today's date "YYYY-mm-dd"
+    center = 0.0 # center of the ring
+
+    def __init__(self, date=date, metal="Copper", radius=5.0,
+                price=5.0, quantity=5):
         """ init is not the constructor, but the initializer which
         initialize the instance variable
 
@@ -31,3 +37,11 @@ class Ring(object):
 
     def area(self):
         return math.pi * self.radius**2
+    
+def main():
+    print("Center of the Ring is at:", Ring.center) # modify class variable
+    r = Ring(price=8) # modify only price
+    print("Radius:{0}, Cost:{1}".format(r.radius, r.cost()))
+
+if __name__ == '__main__':
+    main()
