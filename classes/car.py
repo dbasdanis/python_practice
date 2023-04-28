@@ -6,7 +6,7 @@ class Car:
         self.color = color
         self.started = False
         self.speed = 0
-        self.max_spped = 200
+        self.max_speed = 200
 
     def start(self):
         print("Starting the car...")
