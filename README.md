@@ -6,3 +6,4 @@ This repository serves as an introduction to Python, and aims to explore and tes
     The problems for this section are from [LeetCode](https://leetcode.com), from the [Top_Interview_150](https://leetcode.com/studyplan/top-interview-150/) part.
 
 - Introduction to python libraries as: numpy and pandas
+- Theory about python datatypes and other python concepts
