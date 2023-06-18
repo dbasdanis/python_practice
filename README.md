@@ -7,3 +7,4 @@ This repository serves as an introduction to Python, and aims to explore and tes
 
 - Introduction to python libraries as: numpy and pandas
 - Theory about python datatypes and other python concepts
+- Introduction to pytests
