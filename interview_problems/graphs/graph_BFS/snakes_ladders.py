@@ -1,33 +1,38 @@
-def snakesAndLadders(board):
-    n = len(board)
+from typing import List
+def snakesAndLadders(self, board: List[List[int]]) -> int:
+    # BFS
+    self.nrow = len(board)
+    # start == 1, and goal == self.nrow * self.nrow
+    goal = self.nrow * self.nrow
+    
+    queue = [(1, 0)]
+    # using a set to remember the visited cell
     visited = set()
-
-    def dfs(square):
-        if square == n ** 2:
-            return 0
-        if square in visited:
-            return float('inf')
-
-        visited.add(square)
-        min_moves = float('inf')
-
-        for next_square in range(square + 1, min(square + 6, n ** 2) + 1):
-            row, col = getRowCol(next_square)
-            if board[row][col] != -1:
-                next_square = board[row][col]
-
-            min_moves = min(min_moves, dfs(next_square))
-
-        visited.remove(square)
-        return min_moves + 1
-
-    def getRowCol(square):
-        row = (n - 1) - (square - 1) // n
-        if row % 2 == (n % 2):
-            col = (square - 1) % n
-        else:
-            col = (n - 1) - (square - 1) % n
-        return row, col
-
-    min_moves = dfs(1)
-    return min_moves if min_moves != float('inf') else -1
+    
+    while queue:
+        cur, step = queue.pop(0)
+        if cur == goal:
+            return step
+        
+        for move in range(1, 7):
+            ncell = cur + move
+            if ncell > goal:
+                break
+            r, c = self.n2rc(ncell)
+            if (r, c) not in visited:
+                visited.add((r, c))
+                if board[r][c] != -1:
+                    ncell = board[r][c]
+                queue.append((ncell, step + 1))
+    
+    return -1
+                    
+                    
+def n2rc(self, n):        
+    row = (n - 1) // self.nrow
+    row = self.nrow - row - 1
+    
+    col = (n - 1) % self.nrow
+    if (self.nrow - row) % 2 == 0:
+        col = self.nrow - col - 1
+    return row, col
