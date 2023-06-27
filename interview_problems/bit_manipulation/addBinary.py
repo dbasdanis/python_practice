@@ -23,6 +23,9 @@ class Solution:
             
         return ''.join(reversed(result))
             
+if __name__ == "__main__":
+    solution = Solution()
+    print(solution.addBinary("111","11"))
         
         
             
