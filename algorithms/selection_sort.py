@@ -1,5 +1,13 @@
 def selection_sort(xs):
-    pass
+    for i in range(len(xs)-1):
+        # Find minimum value in unsorted region.
+        min_index = i
+        for j in range(i+1,len(xs)):
+            if xs[j] < xs[min_index]:
+                min_index = j
+        # after finding the minimum value in the unsorted region, swap with the first unsorted value.
+        xs[i], xs[min_index] = xs[min_index], xs[i]
+
 
 xs = [3,2,1,5,4]
 print(xs)
