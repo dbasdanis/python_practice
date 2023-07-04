@@ -9,3 +9,8 @@ This repository serves as an introduction to Python, and aims to explore and tes
 - Theory about python datatypes and other python concepts.
 - Introduction to pytests.
 - Discover and implement algorithms.
+- How to read and write from files
+- How to handle errors
+- How to create classes
+- How to use threads and processes
+- Test Driven Deployment (TDD) and Buiseness Driven Deployment (BDD)
