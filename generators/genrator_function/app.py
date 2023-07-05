@@ -7,4 +7,9 @@ def contains_i(words):
         if "i" in word:
             yield word
 
-print(list(contains_i(some_words)))
+gen_ob = contains_i(some_words)
+
+# convert tpye 
+print(list(gen_ob))
+print(set(contains_i(some_words)))
+print(tuple(contains_i(some_words)))
