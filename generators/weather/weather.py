@@ -1,0 +1,86 @@
+data = [
+    {
+        "country": "Somalia",
+        "temp": "88",
+        "date": "4/5/2046",
+        "wind_speed": "23.64mph",
+    },
+    {
+        "country": "Haiti",
+        "temp": "71",
+        "date": "6/25/2108",
+        "wind_speed": "6.09mph",
+    },
+    {
+        "country": "Mauritania",
+        "temp": "88",
+        "date": "1/8/2057",
+        "wind_speed": "13.00mph",
+    },
+    {
+        "country": "Switzerland",
+        "temp": "15",
+        "date": "10/8/2046",
+        "wind_speed": "4.45mph",
+    },
+    {
+        "country": "Bahrain",
+        "temp": "58",
+        "date": "9/10/2034",
+        "wind_speed": "13.84mph",
+    },
+    {
+        "country": "Libya",
+        "temp": "27",
+        "date": "11/30/2109",
+        "wind_speed": "17.87mph",
+    },
+    {
+        "country": "Canary Islands",
+        "temp": "58",
+        "date": "2/7/2086",
+        "wind_speed": "9.41mph",
+    },
+    {
+        "country": "Solomon Islands",
+        "temp": "53",
+        "date": "12/7/2030",
+        "wind_speed": "7.39mph",
+    },
+    {
+        "country": "Niger",
+        "temp": "28",
+        "date": "2/7/2088",
+        "wind_speed": "8.15mph",
+    },
+    {
+        "country": "Gambia",
+        "temp": "4",
+        "date": "3/15/2122",
+        "wind_speed": "7.97mph",
+    },
+    {
+        "country": "Myanmar (Burma)",
+        "temp": "97",
+        "date": "6/10/2115",
+        "wind_speed": "24.42mph",
+    },
+    {
+        "country": "Ascension Island",
+        "temp": "16",
+        "date": "5/8/2098",
+        "wind_speed": "5.54mph",
+    },
+    {
+        "country": "Qatar",
+        "temp": "42",
+        "date": "10/13/2069",
+        "wind_speed": "11.08mph",
+    },
+    {
+        "country": "Lesotho",
+        "temp": "36",
+        "date": "3/21/2118",
+        "wind_speed": "8.24mph",
+    },
+]
