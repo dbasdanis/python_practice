@@ -2,19 +2,6 @@
 
 This repository serves as a comprehensive guide to Python, aimed at both beginners and intermediate-level developers. Its primary objective is to explore and test various functionalities of the Python language. Here, we cover fundamental concepts, data manipulation using Python libraries, problem-solving, and advanced topics such as multithreading and deployment methodologies.
 
-## Table of Contents
-
-1. [Interview Problems](#interview-problems)
-2. [Introduction to Python Libraries](#introduction-to-python-libraries)
-3. [Python Datatypes and Concepts](#python-datatypes-and-concepts)
-4. [Introduction to Pytests](#introduction-to-pytests)
-5. [Algorithms Implementation](#algorithms-implementation)
-6. [File Input and Output](#file-input-and-output)
-7. [Error Handling](#error-handling)
-8. [Object-Oriented Programming with Classes](#object-oriented-programming-with-classes)
-9. [Multithreading and Processes](#multithreading-and-processes)
-10. [Test Driven Deployment (TDD) and Business Driven Deployment (BDD)](#test-driven-deployment-tdd-and-business-driven-deployment-bdd)
-
 ### 1. Interview Problems
 
 This section contains a curated list of interview problems sourced from LeetCode's "Top_Interview_150" collection. The problems are handpicked to enhance your problem-solving skills using Python. Each problem comes with a detailed explanation and a Python solution.
